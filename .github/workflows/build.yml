@@ -43,7 +43,7 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"FSeidler1_Testat_SAD" /o:"fseidler1" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet restore ./Testat_SAD/
-          dotnet build --no-restore ./Testat_SAD/
-          dotnet test --no-build --verbosity normal ./Testat_SAD/
+          dotnet restore ./source/Testat_SAD
+          dotnet build --no-restore ./source/Testat_SAD
+          dotnet test --no-build --verbosity normal ./source/Testat_SAD
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
