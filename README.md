@@ -79,3 +79,13 @@ Mittels Unit-Tests wird das Projekt CarRent mit Tests abgedeckt.Diese können be
 Zu finden sind diese im Projekt "UnitTest"
 ## Sonarcloud ##
 Wie in der Anforderung beschrieben wurde Sonarcloud eingebunden um Die Qualität nachzuweisen.
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=FSeidler1_Testat_SAD&metric=bugs)](https://sonarcloud.io/dashboard?id=FSeidler1_Testat_SAD)
+
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=FSeidler1_Testat_SAD&metric=code_smells)](https://sonarcloud.io/dashboard?id=FSeidler1_Testat_SAD)
+
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=FSeidler1_Testat_SAD&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=FSeidler1_Testat_SAD)
+
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=FSeidler1_Testat_SAD&metric=ncloc)](https://sonarcloud.io/dashboard?id=FSeidler1_Testat_SAD)
+
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=FSeidler1_Testat_SAD&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=FSeidler1_Testat_SAD)
