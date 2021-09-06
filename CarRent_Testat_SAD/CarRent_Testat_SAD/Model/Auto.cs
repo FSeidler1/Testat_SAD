@@ -16,5 +16,6 @@ namespace CarRent_Testat_SAD.Model
         public string Marke { get; set; }
         [Required]
         public string Typ { get; set; }
+        
     }
 }
